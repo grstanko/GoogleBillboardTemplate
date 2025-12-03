@@ -5,12 +5,13 @@
     },
     "features": {
         "ghcr.io/devcontainers/features/java:1": {
-            "version": "none"
+            "version": "none",
+            "installGradle": true
         },
         "ghcr.io/devcontainers/features/node:1": "none",
         "ghcr.io/devcontainers/features/git:1": {
             "version": "latest",
-            "ppa": "false"
+            "ppa": "true"
         }
     },
     "containerEnv": {
