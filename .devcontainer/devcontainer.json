@@ -3,19 +3,8 @@
         "dockerfile": "./Dockerfile",
         "context": "."
     },
-    "features": {
-        "ghcr.io/devcontainers/features/java:1": {
-            "version": "none",
-            "installGradle": true
-        },
-        "ghcr.io/devcontainers/features/node:1": "none",
-        "ghcr.io/devcontainers/features/git:1": {
-            "version": "latest",
-            "ppa": "true"
-        }
-    },
     "containerEnv": {
-        "JAVA_HOME": "/usr/lib/jvm/msopenjdk-current"
+        // "JAVA_HOME": "/usr/lib/jvm/msopenjdk-current"
     },
     // Configure tool-specific properties.
     "customizations": {
