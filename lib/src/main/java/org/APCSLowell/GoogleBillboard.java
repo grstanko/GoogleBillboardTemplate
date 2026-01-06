@@ -14,7 +14,7 @@ public class GoogleBillboard {
                 return false;
             }
         }
-        return true;
+        return true
     }
     public long firstPrimeNumberIn(String n) {
         for (int i = 0; i  <= n.length() - 10; i++) {
